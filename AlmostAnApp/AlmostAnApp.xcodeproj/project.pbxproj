@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BC13602422266F6700C721F3 /* AlmostAnApp.h in Headers */ = {isa = PBXBuildFile; fileRef = BC13602222266F6700C721F3 /* AlmostAnApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC13602B2226732700C721F3 /* AlmostAnAppUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC13602A2226732700C721F3 /* AlmostAnAppUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC13601F22266F6700C721F3 /* AlmostAnApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlmostAnApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC13602222266F6700C721F3 /* AlmostAnApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlmostAnApp.h; sourceTree = "<group>"; };
 		BC13602322266F6700C721F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC13602A2226732700C721F3 /* AlmostAnAppUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostAnAppUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				BC13602222266F6700C721F3 /* AlmostAnApp.h */,
+				BC13602A2226732700C721F3 /* AlmostAnAppUIView.swift */,
 				BC13602322266F6700C721F3 /* Info.plist */,
 			);
 			path = AlmostAnApp;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					BC13601E22266F6700C721F3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC13602B2226732700C721F3 /* AlmostAnAppUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		BC13602822266F6700C721F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = almostanappcocoapods.com.AlmostAnApp;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +293,7 @@
 		BC13602922266F6700C721F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
