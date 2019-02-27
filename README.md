@@ -29,7 +29,7 @@ Easily Make An iOS App Without Much CodeBase.
 If you have any issues in integrating the 'AlmostAnApp' library into your project, contact me at vamsikvk915@gmail.com
 
 ## Installation
-Visit [Cocoapods.org] (https://cocoapods.org/) for more information on integrating Cocoapods into Xcode projects. To integrate 'AlmostAnApp' library into your Xcode project using Cocoapods, copy this to your `Podfile`:
+Visit [Cocoapods.org](https://cocoapods.org/) for more information on integrating Cocoapods into Xcode projects. To integrate 'AlmostAnApp' library into your Xcode project using Cocoapods, copy this to your `Podfile`:
 
 ```ruby
 pod 'AlmostAnApp'
@@ -38,4 +38,4 @@ pod 'AlmostAnApp'
 ## About Author
 
 ## License
-AlmostAnApp is released under MIT license. See [LICENSE] (https://github.com/vamsikrishnakamjula/AlmostAnApp/blob/master/LICENSE) for details
+AlmostAnApp is released under MIT license. See [LICENSE](https://github.com/vamsikrishnakamjula/AlmostAnApp/blob/master/LICENSE) for details
